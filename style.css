@@ -1,0 +1,61 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: sans-serif;
+}
+header h1{
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: #191825;
+}
+
+.formc{
+    margin: 10px 150px;
+    text-align: center;
+    padding:50px 30px;
+    height: 100vh;
+    width: 70vw;
+    border-radius: 20px;
+}
+  
+.formc label{
+    font-size: 30px;
+    color:#191825;
+    margin-right: 30px;
+    padding: 20px;
+}
+.formc #oo{
+    border-radius: 10px;
+    border: 2px solid #294d11;
+    box-shadow:5px 2px 10px black;
+    padding: 10px 50px;
+    font-size: 30px;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:60vw;
+}
+  
+.button{
+    box-shadow:5px 2px 5px  #2F0F5D;
+    height: 50px;
+    border: 3px solid black;
+    padding: 12px 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.query{
+    font-size: 20px;
+    margin : 0px;
+}
+.clear{
+    /* position: relative; */
+    left: 20px;
+    font-size: 20px;
+    margin  : 20px;
+}
+
+
