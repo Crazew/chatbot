@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chat bot</h1>
+    </header>
+
+    <hr>
+    <div class="formc">
+        <form action="/chat" method="post">
+            <label for="oo">Enter your question : </label>
+            <input id="oo" type="text" name="queryy"><br>
+            <button class="button query" type="submit">Send</button>
+        </form>
+        <form action="/clear" method="post">
+            <button class="button clear" type="submit" name="clr">Click to clear previous chat</button>
+        </form>
+    
+        <div class="container">
+            <% answerrr.forEach((item)=>{ %>
+                <h3>
+                    <%= item %>
+                </h3>
+                <% }) %>
+                    <hr>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
